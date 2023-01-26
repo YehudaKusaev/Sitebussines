@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 242, 235);
+margin: auto;
+}
+
+
+.conteiner {
+
+    display: flex;
+    flex-direction: column;
+     /* align-content: space-between;
+    justify-content: space-between; */
+    height: 100vh;
+     /* width: 95%;  */
+    margin: 0 auto;
+
+
+}
+
+.logo>h1{
+    margin: 0 ;
+    padding: 5px 1em;
+}
+
+.head {
+
+    display: flex;
+    align-content: space-between;
+    background-color: #79a6e9a6;
+    /* background-image: #79a6e94f  url(/Shiur16/image16/Image20230122172354.jpg); */
+ /* background:  #2350924f  url(/Shiur16/image16/Image20230122172354.jpg); */
+    background-size: 100%;
+    justify-content: space-around;
+
+    height: 450px;
+    padding: 1em;
+
+}
+
+.head1 {
+
+    width: 40%;
+
+}
+
+.head2 {
+
+    background-color: aquamarine;
+    padding-left: 2em;
+}
+
+.head1>h2 {
+    margin-bottom: 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 60%;
+    font-size: xx-large;
+
+}
+
+.head2>div {
+
+    margin-top: 1em;
+}
+
+.headlast {
+    margin-top: 2em;
+}
+
+input {
+    border: none;
+    width: 90%;
+    height: 40px;
+}
+
+#btnhead {
+    border: none;
+    width: 90%;
+    height: 40px;
+    text-transform: uppercase;
+    font-stretch: expanded;
+    background-color: orangered;
+    color: aliceblue;
+
+}
+
+.Fhead {
+
+    color: aliceblue;
+    width: 90%;
+    font-size: 11.5px;
+    margin-top: 1em;
+}
+
+
+
+li {
+    list-style-type: style none;
+    display: inline;
+    /* border-right: 1px solid black; */
+    padding: 3px;
+    text-transform: capitalize;
+}
+
+li::after {
+    content: "|";
+    /* background-color: black;  */
+    padding: 2px;
+    margin-left: 4px;
+
+}
+
+.card {
+   
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(31, 28, 28, 0.788);
+    gap: 2em;
+    padding: 1em;
+    text-align: center;
+
+}
+
+.card>div>h3 {
+    text-transform: capitalize;
+
+}
+
+.card>div {
+    width: 25%;
+}
+
+.pasT {
+    background-color: rgba(65, 61, 61, 0.623);
+    width: 100px;
+    height: 1px;
+    position: relative;
+    left: 47%;
+
+}
+
+.tmuna {
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+}
+
+.tmuna>p {
+
+    width: 60%;
+    margin: 6px auto;
+}
+
+img {
+    border-radius: 50%;
+    margin: 1em;
+}
+
+footer{
+    text-align: center;
+}
+@media  screen and (max-width:460px) {
+
+    .head{
+        flex-direction: column;
+        height: 1050px;
+
+    }
+    .head1{
+text-align: center;
+        width: 90%;
+    }
+    .head2{
+
+        width: 100%;
+    }
+    .head1>h2{
+
+        width: 100%;
+    }
+
+    .card{
+
+        flex-direction: column;
+        
+    }
+
+    .card>div{
+        width: 100%;
+    }
+    
+}
